@@ -1,0 +1,113 @@
+
+/*select2*/
+select.is-invalid[data-toggle="select2"] ~ .select2-container--default .select2-selection--single,
+select.is-invalid[data-toggle="multiselect"] ~ .ms-container .ms-list {
+	border: 1px solid #e6614f;
+}
+
+select.is-invalid[data-toggle="multiselect"] ~ .ms-container .ms-list.ms-focus {
+	-webkit-box-shadow: 0 0 0 0.2rem rgba(230, 97, 79, 0.25);
+	box-shadow: 0 0 0 0.2rem rgba(230, 97, 79, 0.25);
+}
+
+button.btn-default.is-invalid {
+	border: 1px solid #e6614f;
+}
+
+/*video/~category~list*/
+li:nth-child(n+2) .checkbox.checkbox-default input[type=checkbox]:checked + span.label-text::after {
+	background: #4786ff;
+	border-color: #4786ff;
+	color: #fff;
+}
+
+li:nth-child(3n) .checkbox.checkbox-default input[type=checkbox]:checked + span.label-text::after {
+	background: #fa607e;
+	border-color: #fa607e;
+	color: #fff;
+}
+
+li:nth-child(4n) .checkbox.checkbox-default input[type=checkbox]:checked + span.label-text::after {
+	background: #fdb44d;
+	border-color: #fdb44d;
+	color: #fff;
+}
+
+/*users*/
+.bootstrap-select.btn-group .dropdown-menu li[data-original-index="0"].disabled {
+    height: 0;
+}
+
+/*user_group*/
+.list-group.menus .list-group-item {
+    border-radius: 0.14286em;
+    margin-bottom: 0.35714em;
+    padding-top: 1.07143em;
+    padding-bottom: 1.07143em;
+}
+
+.list-group.menus .list-group-item > div > i {
+	top: 2px;
+}
+
+.card-title {
+	position: relative;
+}
+
+.inline-input {
+	position: absolute;
+	padding: 0.375em 0.375em;
+	top: 0;
+}
+
+.inline-input > .form-group {
+	margin: 0;
+}
+
+
+/*video/content*/
+.contact-list-badge, .contact-list-action {
+	text-align: center;
+}
+
+/*video/create/~category~select*/
+.ms-container .ms-list {
+	min-height: 200px;
+	height: 310px;
+}
+/*video/create/~video~right~click*/
+.context-menu-icon::before {
+	font: normal normal normal 14px/1 FontAwesome;
+	color: #999;
+}
+.context-menu-icon-upload:before {
+	content: "\f093";
+}
+.context-menu-icon-quit:before {
+	content: "\f00d";
+}
+
+.contact-list-user input:checked + figure {
+	border-color: #e6614f;
+}
+
+.contact-list td figure {
+    margin-bottom: 0;
+}
+
+.contact-list-user input[type="checkbox"], .contact-list-user figure {
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: 2px;
+}
+
+.contact-list-user figure {
+    border: 2px solid transparent;
+	border-radius: 0.40rem;
+}
+
+/*sweetalert*/
+
+.swal2-modal .btn {
+    display: inline-block;
+}
